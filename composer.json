@@ -1,0 +1,30 @@
+{
+  "name": "blx32/i2p",
+  "description": "I2P Scripts",
+  "keywords": [
+    "I2P"
+  ],
+  "type": "project",
+  "authors": [
+    {
+      "name": "Gabriel Moura",
+      "email": "develop@srmoura.com.br"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-0": {
+      "Blx32": "/"
+    },
+    "files": [
+      "I2P/Helper.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
